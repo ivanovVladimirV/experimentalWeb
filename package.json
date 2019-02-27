@@ -1,0 +1,19 @@
+{
+  "name": "ivanov_home_work_4",
+  "version": "1.0.0",
+  "description": "hw4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hw4"
+  },
+  "author": "Ivanov_Vladimir",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1"
+  }
+}

@@ -1,0 +1,113 @@
+
+html {
+overflow-x: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+}
+
+.header.wrapper {
+    background-image: url(../img/1.jpg);
+
+}
+
+.main.wrapper {
+    background-image: url(../img/2.jpg);
+}
+
+.portfolio.wrapper {
+    background-image: url(../img/5.jpg);
+}
+
+.blog.wrapper {
+    background-image: url(../img/1.jpg);
+}
+
+.form.wrapper {
+    background-image: url(../img/6.jpg);
+}
+
+.heading-style{
+    padding: 5%;
+    text-transform: uppercase;
+}
+
+
+.description {
+    padding-top: 30vh;
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: red;
+    padding-right: 20px;
+    font-size: 7vw;
+}
+
+nav  {
+    background-color: rgb(253, 1, 1);
+    border-radius: 4px;
+}
+body > nav > button.navbar-toggler {
+    background-color: #FFF;
+}
+
+i .fas, .fa-bars {
+    padding-top: 6px;
+}
+.text-description {
+    color: #FFF;
+    font-size: 1vmax;
+}
+
+body > header > button.color, body > section.form.wrapper > div > div:nth-child(2) > form > button {
+    background-color: rgb(255, 7, 7);
+    margin-top: 15vh;
+}
+
+body > main > div > div:nth-child(1) > img {
+    border: 2px solid black;
+    border-radius: 25%;
+}
+
+body > main > div > div.col-sm-12.col-md-4.col-lg-4.text-left {
+    color: red;
+    border-left: 2px solid white;
+    width: 45vw;
+}
+
+ .row.w-75.row-container {
+    background-color: black;
+    align-items: center;
+    margin:  auto;
+    border-radius: 20px;
+}
+
+.wrapper h3 {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+
+.form-row {
+    padding-top: 10%;
+    width: 50vw;
+}
+
+body > section.form.wrapper > div > div:nth-child(1) > h3 {
+    padding-top: 40%;
+}
